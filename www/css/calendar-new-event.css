@@ -1,0 +1,35 @@
+#save-button{
+	font-size: 20px;
+}
+#event-title{
+	padding-left: 20px;
+}
+.add-guest{
+	margin-top: 90px;
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #c5c5c5;
+}
+.add-guest a, .schedule a, .add-location a, .add-notify a, .add-note a, .add-attachment a, .calendar-def a, .busy a, .color a{
+	color: black;
+}
+.add-guest .guest, .schedule .all-day, .add-location .location, .add-notify .notify, .color .add-color, .add-note .note, .add-attachment .attachment, .calendar-def .calendar, .busy .add-busy{
+	text-align: left;
+}
+.add-guest .guest a, .add-location .location a, .add-note .note a, .add-attachment .attachment a{
+	color: gray;
+}
+.schedule, .add-location, .add-notify, .add-note, .add-attachment, .calendar-def, .busy, .color{
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #c5c5c5;
+}
+#circle {
+	vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #2196f3;
+}

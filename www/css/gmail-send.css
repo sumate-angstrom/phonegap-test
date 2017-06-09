@@ -1,0 +1,7 @@
+.mail-to, .mail-subject, .mail-content{
+	padding: 10px;
+	margin: 0;
+}
+.mail-content text-area{
+	border-bottom: : none;
+}

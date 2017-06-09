@@ -1,0 +1,35 @@
+.navbar-fixed .today-event{
+	padding: 10px;
+	border-bottom: 1px solid gray; 
+}
+.navbar-fixed .today-event p{
+	line-height: 1px;
+	text-align: center;
+}
+.navbar-fixed .today-event .date{
+	font-size: 30px;
+}
+.navbar-fixed .today-event .event-name{
+	height: 40px;
+	background-color: #00acc1;
+	font-size: 20px;
+	padding: 0 20px 0 0;
+}
+.time1{
+	margin-top: 70px;
+}
+.time{
+	border-bottom: 1px gray;
+	margin-bottom: 0;
+	padding: 10px;
+	text-align: center;
+}
+.time .event{
+	background-color: #00acc1;
+	text-align: left;
+}
+.time .event a{
+	color: #fff;
+	display: inline-block;
+	padding: 0 100% 0 0;
+}

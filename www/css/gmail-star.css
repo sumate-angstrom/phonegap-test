@@ -1,0 +1,31 @@
+.side-nav li img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.collection{
+	margin-top: 0;
+	padding-top : 0;
+}
+.mail-content .col p{
+	line-height: 1px;
+	font-size: 100%;
+}
+.mail-content .col .mail-title, .mail-content .col .mail-sender{
+	font-style: bold;
+	color: black;
+}
+.mail-content .col .mail-content{
+	color: #a9a9a9;
+}
+.mail-content .col .time{
+	color: blue;
+	text-align: right;
+}
+.mail-content .col .star{
+	color: #ff0;
+	text-align: right;
+}
+.mail-content a .col img{
+	max-height: 100%;
+	max-width: 100%;
+}

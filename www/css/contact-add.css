@@ -1,0 +1,27 @@
+nav .nav-wrapper .left .add-contact a{
+	font-size: 20px;
+	pointer-events: none;
+	cursor: default;
+}
+.image-select{
+	text-align: right;
+	background-image: url(../images/user-image.png); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-color: #c5c5c5;
+}
+.image-select a{
+	color: #fff;
+	padding: 20px;
+}
+.account{
+	padding: 10px;
+	margin: 0px;
+}
+.account .mail{
+	color: gray;
+}
+.input{
+	padding: 10px;
+}

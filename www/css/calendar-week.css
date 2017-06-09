@@ -1,0 +1,31 @@
+.navbar-fixed .today-event{
+	padding: 10px;
+	border-bottom: 1px solid gray; 
+}
+.navbar-fixed .today-event .today{
+}
+.navbar-fixed .today-event p{
+	line-height: 1px;
+	text-align: center;
+}
+.navbar-fixed .today-event .date{
+	font-size: 20px;
+}
+.time1{
+	margin-top: 70px;
+}
+.time{
+	border-bottom: 1px gray;
+	margin-bottom: 0;
+	padding: 2px 15px;
+	text-align: center;
+}
+.time .event{
+	background-color: #00acc1;
+	text-align: left;
+}
+.time .event a{
+	color: #fff;
+	display: inline-block;
+	padding: 0 100% 0 0;
+}

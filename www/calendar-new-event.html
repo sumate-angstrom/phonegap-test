@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar New Event</title>
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/calendar-new-event.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+	<div class="navbar-fixed">
+	    <nav>
+	      	<div class="nav-wrapper blue">
+			    <ul class="left">
+			    	<li><a href="calendar.html" data-activates="slide-out" class="button"><i class="material-icons medium">close</i></a></li>
+			    </ul>
+			    <ul class="right">
+			    	<li><a id="save-button" href="calendar.html">SAVE</a></li>
+			    </ul>
+	      	</div>
+	      	<div class="event-title blue">
+	      		<input id="event-title" type="text" placeholder="Enter title, times, people, places">
+	      	</div>
+	    </nav>
+	</div>
+	<div class="row add-guest">
+	    <div class="col s2 m1"><a><i class="material-icons">people</i></a></div>
+	    <div class="col s10 m11 guest"><a>Add guests</a></div>
+	</div>
+	<div class="row schedule">
+	    <div class="row">
+	    	<div class="col s2 m1"><a><i class="material-icons">schedule</i></a></div>
+	    	<div class="col s7 m10 all-day"><a>All-day</a></div>
+	    	<div class="col s3 m1">
+	    		<div class="switch">
+				    <label>
+				    	<input type="checkbox">
+				    	<span class="lever"></span>
+				   	</label>
+				</div>
+	    	</div>
+	    </div>
+	    <div class="row">
+	    	<div class="col s7 m10 offset-s2 offset-m1 all-day"><a>วันพุธที่ 7 มิ.ย.</a></div>
+	    	<div class="col s3 m1"><a>15:00</a></div>
+	    </div>
+	</div>
+	<div class="row add-location">
+		<div class="col s2 m1"><a><i class="material-icons">location_on</i></a></div>
+	    <div class="col s10 m11 location"><a>Add location</a></div>
+	</div>
+	<div class="row add-notify">
+		<div class="col s2 m1"><a><i class="material-icons">notifications</i></a></div>
+	    <div class="col s10 m11 notify"><a>10 minute before</a></div>
+	</div>
+	<div class="row color">
+		<div class="col s2 m1"><div class="col s8 m6 offset-s3 offset-m4" id="circle"></div></div>
+	    <div class="col s10 m11 add-color"><a>Default color</a></div>
+	</div>
+	<div class="row add-note">
+		<div class="col s2 m1"><a><i class="material-icons">subject</i></a></div>
+	    <div class="col s10 m11 note"><a>Add note</a></div>
+	</div>
+	<div class="row add-attachment">
+		<div class="col s2 m1"><a><i class="material-icons">attach_file</i></a></div>
+	    <div class="col s10 m11 attachment"><a>Add attachment</a></div>
+	</div>
+	<div class="row calendar-def">
+		<div class="col s2 m1"><a><i class="material-icons">https</i></a></div>
+	    <div class="col s10 m11 calendar"><a>Calendar default</a></div>
+	</div>
+	<div class="row busy">
+		<div class="col s2 m1"><a><i class="material-icons">work</i></a></div>
+	    <div class="col s10 m11 add-busy"><a>Busy</a></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#sub-nav-head{
+	font-size: 20px;
+	color: #a67d83;
+}
+.side-nav li #circle-icon{
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 50%;
+	padding: 20px;
+}
+.week-iden{
+	padding: 10px 10px 0 10px;
+}
+.week-iden .su, .week-iden .mo, .week-iden .tu, .week-iden .we, .week-iden .th, .week-iden .fr, .week-iden .sa{
+	width: 13%;
+	display: inline-block;
+	text-align: center;
+}
+.week-iden .su a, .week-iden .mo a, .week-iden .tu a, .week-iden .we a, .week-iden .th a, .week-iden .fr a, .week-iden .sa a{
+	color: #000;
+}
+.week-1, .week-2, .week-3, .week-4, .week-5{
+	padding: 0 10px 0 10px;
+	height: 90px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 0;
+}
+.week-6{
+	padding: 0 10px 0 10px;
+	height: 90px;
+	margin-bottom: 0;
+}
+.week-1 .su, .week-1 .mo, .week-1 .tu, .week-1 .we, .week-1 .th, .week-1 .fr, .week-1 .sa, 
+.week-2 .su, .week-2 .mo, .week-2 .tu, .week-2 .we, .week-2 .th, .week-2 .fr, .week-2 .sa, 
+.week-3 .su, .week-3 .mo, .week-3 .tu, .week-3 .we, .week-3 .th, .week-3 .fr, .week-3 .sa,
+.week-4 .su, .week-4 .mo, .week-4 .tu, .week-4 .we, .week-4 .th, .week-4 .fr, .week-4 .sa,
+.week-5 .su, .week-5 .mo, .week-5 .tu, .week-5 .we, .week-5 .th, .week-5 .fr, .week-5 .sa,
+.week-6 .su, .week-6 .mo, .week-6 .tu, .week-6 .we, .week-6 .th, .week-6 .fr, .week-6 .sa{
+	width: 13%;
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+}
+.week-1 .su a, .week-1 .mo a, .week-1 .tu a, .week-1 .we a, .week-1 .th a, .week-1 .fr a, .week-1 .sa a,
+.week-2 .su a, .week-2 .mo a, .week-2 .tu a, .week-2 .we a, .week-2 .th a, .week-2 .fr a, .week-2 .sa a,
+.week-3 .su a, .week-3 .mo a, .week-3 .tu a, .week-3 .we a, .week-3 .th a, .week-3 .fr a, .week-3 .sa a,
+.week-4 .su a, .week-4 .mo a, .week-4 .tu a, .week-4 .we a, .week-4 .th a, .week-4 .fr a, .week-4 .sa a,
+.week-5 .su a, .week-5 .mo a, .week-5 .tu a, .week-5 .we a, .week-5 .th a, .week-5 .fr a, .week-5 .sa a,
+.week-6 .su a, .week-6 .mo a, .week-6 .tu a, .week-6 .we a, .week-6 .th a, .week-6 .fr a, .week-6 .sa a{
+	color: #000;
+	padding: 0 10px 30px 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gmail Send</title>
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/gmail-send.css">
+</head>
+<body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div class="navbar-fixed">
+	    <nav>
+	      	<div class="nav-wrapper white">
+	      		  <a href="#!" class="brand-logo center">Inbox</a>
+			      <ul class="left">
+			      	<li><a href="gmail.html" class="black-text"><i class="material-icons small">arrow_back</i></a></li>
+			      </ul>
+			      <ul class="right">
+			        <li><a href="#attach" class="black-text"><i class="material-icons small">attachment</i></a></li>
+			        <li><a href="#attach" class="black-text"><i class="material-icons small">send</i></a></li>
+			      </ul>
+	      	</div>
+	    </nav>
+	</div>
+	<div class="white row mail-to">
+		<input placeholder="To" id="mail_to" type="text" class="validate">
+	</div>
+	<div class="white row mail-subject">
+		<input placeholder="Subject" id="mail_subject" type="text" class="validate">
+	</div>
+	<div class="white row mail-content">
+		<textarea id="textarea1" class="materialize-textarea"></textarea>
+	</div>
+</body>
+</html>

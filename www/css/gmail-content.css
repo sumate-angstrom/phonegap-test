@@ -1,0 +1,56 @@
+.nav-wrapper ul li img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.mail-title{
+	border-bottom: 1px solid gray;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+.mail-title .title{
+	font-size: 22px;
+	color: #000;
+}
+.mail-title .star-element{
+	float: right;
+	color: gray;
+}
+.mail-sender{
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+.mail-sender .sender{
+	line-height: 1px;
+	padding: 0;
+}
+.mail-sender img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.mail-sender .sender{
+	font-size: 100%;
+}
+.mail-sender .time{
+	font-size: 100%;
+}
+.mail-sender .time a{
+	color: #000;
+}
+.mail-content{
+	margin: 20px;
+	background-color: #e1e1e1;
+	padding: 5px;
+}
+.mail-content pre{
+	margin: 0;
+	padding: 0;
+}
+.footer a{
+	color: #000;
+}
+.footer .reply{
+	text-align: center;
+}
+.footer .forward{
+	text-align: center;
+}

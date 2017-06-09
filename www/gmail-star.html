@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/gmail-star.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <div class="navbar-fixed">
+	      <nav>
+	      	<div class="nav-wrapper red">
+	      		  <a href="#!" class="brand-logo center">Starred</a>
+			      <ul class="left">
+			      	<li><a href="#" data-activates="slide-out" class="button"><i class="material-icons medium">menu</i></a></li>
+			      </ul>
+			      <ul class="right">
+			        <li><a href="#""><i class="material-icons medium">search</i></a></li>
+			      </ul>
+	      	</div>
+	      </nav>
+	  </div>
+	  <ul id="slide-out" class="side-nav">
+		<li><div class="userView">
+			<div class="background">
+			  <img src="images/office.jpg">
+			</div>
+			<a href="#!user"><img class="circle" src="images/user-image.png"></a>
+			<a href="#!name"><span class="white-text name">Sumate Napapitakkul</span></a>
+			<a href="#!email"><span class="white-text email">sumate@angstromsolutions.net</span></a>
+		</div></li>
+		<li><a href="gmail.html"><i class="material-icons">inbox</i>Inbox</a></li>
+		<li><div class="divider"></div></li>
+		<li><a href="gmail-star.html"><i class="material-icons">star</i>Starred</a></li>
+		<li><a href="gmail.html"><i class="material-icons">navigation</i>Important</a></li>
+		<li><a href="gmail.html"><i class="material-icons">send</i>Sent</a></li>
+		<li><a href="gmail.html"><i class="material-icons">description</i>Drafts</a></li>
+		<li><a href="gmail.html"><i class="material-icons">email</i>All mail</a></li>
+		<li><a href="gmail.html"><i class="material-icons">error</i>Spam</a></li>
+		<li><a href="gmail.html"><i class="material-icons">delete</i>Trash</a></li>
+		<li><div class="divider"></div></li>
+		<li><a href="#!"><i class="material-icons">note_add</i>Create new</a></li>
+		<li><div class="divider"></div></li>
+		<li><a href="#!"><i class="material-icons">settings</i>Setting</a></li>
+		<li><a href="#!"><i class="material-icons">feedback</i>Send feedback</a></li>
+		<li><a href="#!"><i class="material-icons">help</i>Help</a></li>
+		<li><a href="index.html"><i class="material-icons"></i>Log out</a></li>
+	  </ul>
+      <script type="text/javascript">$(".button").sideNav();</script>
+	  <div class="collection mail-content">
+	  	<a href="gmail-content.html" class="collection-item row">
+	    	<div class="col s3 m1">
+	    		<img src="images/human4.jpg" class="circle" align="middle">
+	    	</div>
+	    	<div class="col s6 m9">
+	    		<p class="mail-sender">Mike Haunted</p>
+	    		<p class="mail-title">Summer Discount</p>
+	    		<p class="mail-content">Dear, customers...</p>
+	    	</div>
+	    	<div class="col s3 m2">
+	    		<p class="time">8.30am</p>
+	    		<p class="star"><i class="material-icons">star</i></p>
+	    	</div>
+	    </a>
+	    <a href="gmail-content.html" class="collection-item row">
+	    	<div class="col s3 m1">
+	    		<img src="images/human4.jpg" class="circle" align="middle">
+	    	</div>
+	    	<div class="col s6 m9">
+	    		<p class="mail-sender">Mike Haunted</p>
+	    		<p class="mail-title">Promotion for opening</p>
+	    		<p class="mail-content">Dear, customers...</p>
+	    	</div>
+	    	<div class="col s3 m2">
+	    		<p class="time">6.30pm</p>
+	    		<p class="star"><i class="material-icons">star</i></p>
+	    	</div>
+	    </a>
+	    <a href="gmail-content.html" class="collection-item row">
+	    	<div class="col s3 m1">
+	    		<img src="images/human4.jpg" class="circle" align="middle">
+	    	</div>
+	    	<div class="col s6 m9">
+	    		<p class="mail-sender">Mike Haunted</p>
+	    		<p class="mail-title">New open coffee shop</p>
+	    		<p class="mail-content">Dear, customers...</p>
+	    	</div>
+	    	<div class="col s3 m2">
+	    		<p class="time">2.30pm</p>
+	    		<p class="star"><i class="material-icons">star</i></p>
+	    	</div>
+	    </a>
+	  </div>
+	  <div class="fixed-action-btn click-to-toggle">
+	    <a href="gmail-send.html" class="btn-floating btn-large red">
+	      <i class="large material-icons">mode_edit</i>
+	    </a>
+	  </div>
+    </body>
+  </html>

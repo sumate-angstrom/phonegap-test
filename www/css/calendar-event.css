@@ -1,0 +1,19 @@
+.navbar-fixed .event-title{
+	font-size: 20px;
+}
+.ev-schedule{
+	margin-top: 70px;
+	margin-bottom: 0px;
+}
+.ev-schedule, .ev-notify{
+	padding: 10px;
+}
+.ev-schedule a{
+	text-align: center;
+}
+.ev-schedule a, .ev-notify a{
+	color: #000;
+}
+.ev-schedule .schedule p{
+	line-height: 0px;
+}

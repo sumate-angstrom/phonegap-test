@@ -1,0 +1,29 @@
+.image-select{
+	text-align: right;
+	background-image: url(../images/user-image.png); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-color: #c5c5c5;
+	margin-bottom: 0px;
+}
+.image-select a{
+	color: #fff;
+}
+.name{
+	background-color: #c5c5c5;
+	font-size: 30px;
+	padding: 10px;
+}
+.name a{
+	color: #fff;
+}
+.info .line .mobile, .info .line .mail{
+	line-height: 1px;
+}
+.info .line .gray{
+	color: gray;
+}
+.info .line .icon a{
+	color: #000;
+}
